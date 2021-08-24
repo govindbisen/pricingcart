@@ -1,0 +1,96 @@
+
+.superparent{
+    display: flex;
+      margin: 1rem;
+      border:1px solid blue;
+      flex-wrap: wrap;
+      background: linear-gradient(to right, #0062E6, #33AEFF);
+      justify-content: space-evenly;
+    
+}
+
+.Card-parent{
+    
+    width: 290px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    background-color: white;
+}
+
+  .card-header{
+ 
+    font-weight: bold;
+    text-align: center;
+    background: color #32afe3; 
+    border-bottom: 1px solid black;
+}
+.card-header>div{
+    font-weight: lighter;
+}
+.card-header>p>sub{
+    font-size: .7rem;
+    font-weight: lighter;
+}
+ .card-header>p{
+    margin-top: -3px;
+    margin-bottom: -1px;
+     font-size: 2rem;
+ } 
+
+  .content{
+    font-size: 1rem;
+      text-align: left;
+    
+  }
+  .content>div{
+      padding: .5rem;
+      font-size: .8rem;
+  }
+
+  .Card{
+    border:1px solid blue;
+  }
+  
+  button{
+      padding: 7px;
+      padding-left: 40%;
+      padding-right: 40%;
+      border-radius: 20px;
+      margin-left: .4rem;
+      margin-right: .4rem;
+      background-color: #5499fd;
+      color: white;
+  }
+
+/* next change  */
+
+  @media (min-width: 992px) {
+    .Card-parent:hover {
+      margin-top: -.15rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  
+    .button:hover {
+      opacity: 1;
+    }
+  }
+
+  button{
+      width: 95%;
+      font-size: 80%;
+      border-radius: 5rem;
+      letter-spacing: .1rem;
+      font-weight: bold;
+      padding: 1rem;
+      opacity: 0.7;
+      transition: all 0.2s;
+    
+  }
+
+.btn:hover{
+    background-color: black;
+  }
